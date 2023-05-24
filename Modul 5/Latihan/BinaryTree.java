@@ -15,7 +15,7 @@ public class BinaryTree {
         if (newData.data < root.data) {
             root.left = NewNode(root.left, newData);
         } else {
-            root.right = NewNode(root.left, newData);
+            root.right = NewNode(root.right, newData);
         }
         return root;
     }
